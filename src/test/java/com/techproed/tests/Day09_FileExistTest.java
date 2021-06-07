@@ -16,7 +16,7 @@ public class Day09_FileExistTest {
         String homePath = System.getProperty("user.home");
         System.out.println(homePath);
      //   String pathOfFile = "C:\\Users\\gulsl\\Desktop";
-        String pathOfFile = homePath+ "Desktop";
+        String pathOfFile = homePath+ "Desktop\\flower.jpeg";
 
       boolean isExist=Files.exists(Paths.get(pathOfFile));
         Assert.assertTrue(isExist);
